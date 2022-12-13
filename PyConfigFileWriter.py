@@ -79,7 +79,7 @@ def main():
 
 		if not os.path.isfile(fileName):
 			print("File could not be found, expected absolute path")
-			exit
+			exit()
 
 		f = open(fileName, "r")
 		inp = f.read()
